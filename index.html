@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addyourdish</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <h2>add your dish here</h2>
+        <form id="dish">
+            <!-- <p id="rending"></p> -->
+            <fieldset>
+                <legend>ADD YOUR DISH </legend>
+                <label for="nameField">recipe name</label>
+                <input type="text" id="nameField">
+                <br>
+                <label for="recipeStory">Add story:</label><br>
+                <textarea name="message" rows="10" cols="30" id="recipeStory"></textarea>
+                <br>
+                <label for="serving">serving</label>
+                <input type="number" id="serving">
+                <br>
+                <label for="cookTime">Cooking time</label>
+                <input type="number" id="cookTime">
+                <br>
+                <label for="Ingredien">Ingredients:</label><br>
+                <textarea name="message" rows="10" cols="30" id="Ingredien"></textarea>
+                <br>
+                <label for="PreparationRole">Preparation:</label><br>
+                <textarea name="message" rows="10" cols="30" id="PreparationRole"></textarea>
+                <br>
+                <h4> perfect for: </h4>
+                <input type="checkbox" id="breakfast" name="perfect" value="breakfast">
+                <label for="breakfast">Breakfast</label><br>
+                <input type="checkbox" id="lunch" name="perfect" value="lunch">
+                <label for="lunch">lunch</label><br>
+                <input type="checkbox" id="dinner" name="perfect" value="dinner">
+                <label for="dinner">dinner</label>
+                <br>
+                <label for="recipeImage">Add your dish image:</label>
+                <input type="url" id="recipeImage" name="recipeImage">
+                <br>
+<!--  
+    ingrediants:<br>
+                <label for="ingredaint1"></label>
+                <input type="text" id="ingredaint1"> 
+                <div>
+                </div>
+                steps:<br>
+                 this for adding more steps 
+                <label for="step1"></label>
+                <input type="text" id="step1">
+                <button type="button">+ step</button><br>
+                <label for="recipeImage">Add your dish image:</label>
+                <input type="url" id="recipeImage" name="recipeImage">
+                <input type="submit" value="add">-->
+                <br>
+                <button type="submit">add your recipe</button>
+            </fieldset>
+        </form><br>
+        <section id="showing">
+        </section>
+        <!-- <section id="recipeBrief">
+            <img src="https://via.placeholder.com/200x100" alt="">
+            <h2>recipe name</h2>
+            <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi delectus quidem ratione nostrum quae
+                laudantium harum mollitia eius nesciunt animi dolore dolor optio, quod quos obcaecati nam! Perspiciatis,
+                necessitatibus aliquid.</p>
+        </section> -->
+    </main>
+    <footer>
+        <script src="app.js"></script>
+    </footer>
+</body>
+</html>
