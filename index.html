@@ -1,30 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class = "color" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>addyourdish</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-    </header>
+   <header>
+    <div class="header">
+        <div class = "he">
+            <a href="index.html"><img class= "img1" src="../img/maxresdefault-removebg (2).png" alt=""></a>
+        </div>
+        <nav class="menu">
+            <ul class="unorderedList">
+                <li><a href="index.html">HOME</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)"> CATEGORIES <i class="fa fa-chevron-down"></i></a>
+                    <ul class="subContent">
+                        <li><a href="../pages/breakfast.html">BREAKFAST</a></li>
+                        <li><a href="../pages/dinner.html">LUNCH</a></li>
+                        <li><a href="../pages/lunch.html">DINNER</a></li>
+                    </ul>
+                </li>
+                <li><a href="../pages/addYourDish.html">ADD YOUR DISHES</a></li>
+                <li><a href="../pages/aboutUs.html">ABOUT US</a></li>
+            </ul>
+        </nav>
+    </div>
+   </header>
     <main>
-        <h2>add your dish here</h2>
+        
         <form id="dish">
-            <!-- <p id="rending"></p> -->
-            <fieldset>
+            <div id="bigBox"></div>
+            <fieldset >
+                <div id="smallBox">
                 <legend>ADD YOUR DISH </legend>
-                <label for="nameField">recipe name</label>
+                <label for="nameField">recipe name</label><br>
                 <input type="text" id="nameField">
                 <br>
                 <label for="recipeStory">Add story:</label><br>
-                <textarea name="message" rows="10" cols="30" id="recipeStory"></textarea>
+                <textarea name="message" placeholder="add your story" rows="10" cols="30" id="recipeStory"></textarea>
                 <br>
-                <label for="serving">serving</label>
+                <label for="serving">serving</label><br>
                 <input type="number" id="serving">
                 <br>
-                <label for="cookTime">Cooking time</label>
+                <label for="cookTime">Cooking time</label><br>
+
                 <input type="number" id="cookTime">
                 <br>
                 <label for="Ingredien">Ingredients:</label><br>
@@ -33,13 +56,15 @@
                 <label for="PreparationRole">Preparation:</label><br>
                 <textarea name="message" rows="10" cols="30" id="PreparationRole"></textarea>
                 <br>
-                <h4> perfect for: </h4>
+                <h4> Perfect for: </h4>
+                <section id="perfect">
                 <input type="checkbox" id="breakfast" name="perfect" value="breakfast">
-                <label for="breakfast">Breakfast</label><br>
+                <label for="breakfast">Breakfast</label>
                 <input type="checkbox" id="lunch" name="perfect" value="lunch">
-                <label for="lunch">lunch</label><br>
+                <label for="lunch">lunch</label>
                 <input type="checkbox" id="dinner" name="perfect" value="dinner">
                 <label for="dinner">dinner</label>
+                </section>
                 <br>
                 <label for="recipeImage">Add your dish image:</label>
                 <input type="url" id="recipeImage" name="recipeImage">
@@ -60,8 +85,11 @@
                 <input type="submit" value="add">-->
                 <br>
                 <button type="submit">add your recipe</button>
+            </div>
             </fieldset>
-        </form><br>
+        </form>
+      
+        <br>
         <section id="showing">
         </section>
         <!-- <section id="recipeBrief">
@@ -73,6 +101,40 @@
         </section> -->
     </main>
     <footer>
+        <address class="address"><p class="bold">Contact Us</p>
+            <br>
+            <p>Wakehurst Street
+                <br>
+                Littleton, CO 80123</p>
+                <p>+1-202-555-0181</p>
+                <p>easycooking@recipesforyou.com</p></address>
+                <div class="contacts">  </div>
+                    <div class="img2">
+                    <a href="javascript:void(0)">
+                        <img  src="../img/facebook.png" alt="facebook">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="../img/instagram.png" alt="instagram">
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img src="../img/google.png" alt="google+"> 
+                    </a>
+                    <a href="javascript:void(0)">
+                        <img  src="../img/youtube.png" alt="youtube"> 
+                    </a> 
+                    </div>
+                    <hr>
+              
+                <div class="rights">
+                    <p class="copyRights">&copy;2021 All Rights Reserved</p>
+                </div>
+                <div class="brief">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque ipsa nulla similique necessitatibus ullam quae fugit dignissimos doloram</p>
+                    <br>
+                    <p><a href="javascript:void(0)">Terms and Conditions</a></p>
+                    <br>
+                    <p><a href="javascript:void(0)" >Privacy & Policy</a></p>
+                </div>
         <script src="app.js"></script>
     </footer>
 </body>
