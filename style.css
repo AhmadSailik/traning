@@ -1,0 +1,527 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frank+Ruhl+Libre:wght@300&family=Indie+Flower&family=Vollkorn&display=swap');
+* {
+    box-sizing: border-box;
+}
+.color{
+    background-image: url('../img/photo-1514516816566-de580c621376.jpg');
+    background-size: cover;
+}
+body{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+header{
+    position: relative;
+    height: 150px;
+}
+.header {
+/* height: 50%; */
+padding: 30px 10px;
+
+}
+.he{
+    position: absolute;
+    top: 1.3%;
+    left: 5%;
+    width: 1000px;
+    height: 80px;
+}
+.img1{
+    max-width: 100%;
+    max-height: 100%;
+}
+.menu{
+    position: relative;
+}
+.unorderedList{
+    position: absolute;
+    right: 3%;
+}
+.unorderedList li, .dropdown{
+    display: inline-block;
+    letter-spacing: 1px;
+    /* border-right: 1px solid #D2A239; */
+}
+.unorderedList li a, .dropdown a{
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+    color: #6E646E;
+    text-shadow: 1px 1px black;
+    font-size: 18px;
+    display: block;
+    line-height:30px;
+}
+.unorderedList li a:hover, .dropdown a:hover{
+    background-color: #740202;
+    color:#cfc5bf;
+}
+.subContent{
+    position: absolute;
+    top: 30px;
+    right:280px;
+    display: none;
+    background-color: #CFC5BF;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.subContent li {
+    display: list-item;
+    width: 140px;
+}
+.subContent li a{
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    height: 50%;
+    position: relative;
+}
+
+
+#dish{
+    
+    width: 100%;
+    position: relative;
+    height: 600px;
+    background-image: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1955&q=80);
+background-size: 100%,100%; 
+
+}
+main fieldset{
+    height: 600px;
+   
+}
+#bigBox{
+    border: 1px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    opacity: 70%;
+    background-image: url(https://images.unsplash.com/photo-1598259065881-8a65b97d50fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80);
+    left: 200px;
+    top:50px;
+    
+
+
+}
+#smallBox{
+    border: 1px ;
+    position: relative;
+    z-index: 2;
+    width:500px;
+    height: 500px; 
+    left: 200px;
+    top:50px
+
+
+}
+  
+
+    
+
+
+#nameField{
+    position:absolute;
+    font-size: larger;
+    width: 150px;
+    height: 25px;
+    top: 35px;;
+    left: 250px;
+
+}
+
+   
+
+label[for="nameField"]{
+    font-size: large;
+    /* background-color: cadetblue; */
+    position:absolute;
+    top: 35px;
+    left: 15px;
+} 
+#recipeStory{
+    position:absolute;
+    font-size: larger;
+    width: 150px;
+    height: 25px;
+    top: 70px;;
+    left: 250px;
+
+}
+
+label[for="recipeStory"]{
+    font-size: large;
+    /* background-color: cadetblue; */
+    position:absolute;
+    top: 70px;
+    left: 15px;
+} 
+
+#serving{
+    position:absolute;
+    font-size: larger;
+    width: 150px; ;
+    height: 25px;
+    top:105px;
+    left: 250px;
+
+}
+label[for="serving"]{
+    font-size: large;
+    /* background-color: cadetblue; */
+    position:absolute;
+    top: 105px;
+    left: 15px;
+} 
+
+#cookTime{
+    position:absolute;
+    font-size: larger;
+    width: 150px;
+    height: 25px;
+    top: 140px;
+    left: 250px;
+
+}
+label[for="cookTime"]{
+    font-size: large;
+    /* background-color: cadetblue; */
+    position:absolute;
+    top: 140px;
+    left: 15px;
+} 
+#Ingredien{
+    position:absolute;
+    font-size: larger;
+    width: 150px;
+    height: 25px;
+    top: 175px;
+    left: 250px;
+
+}
+label[for="Ingredien"]{
+    font-size: large;
+    /* background-color: cadetblue; */
+    position:absolute;
+    top: 175px;
+    left: 15px;
+    /* opacity: 60%; */
+} 
+#PreparationRole{
+    position:absolute;
+    font-size: large;
+    width: 150px;
+    height: 25px;
+    top: 210px;
+    left: 250px;
+
+}
+label[for="PreparationRole"]{
+    font-size: large;
+    /* background-color: cadetblue; */
+    position:absolute;
+    top: 210px;
+    left: 15px;
+} 
+
+
+fieldset legend{
+    position:absolute;
+    font-size: large;
+    background-color: chartreuse;
+    /* top:; */
+
+}
+
+
+
+ #recipeImage {
+    position:absolute;
+    font-size: larger;
+    width: 150px;
+    height: 25px;
+    top:400px;
+    left: 250px;
+}
+
+
+label[for="recipeImage"]{
+    font-size: large;
+    /* background-color: cadetblue; */
+    position:absolute;
+    top: 400px;
+    left: 15px;
+    
+  
+} 
+#breakfast{
+position:absolute;
+font-size: larger;
+width: 50px;
+height: 22px;
+background-color: lightsalmon;
+top:287px;
+left: 80px;
+}
+
+label[for="breakfast"]{
+font-size: large;
+/* background-color: cadetblue; */
+position:absolute;
+top: 290px;
+left: 15px;
+
+
+} 
+#lunch{
+    position:absolute;
+    font-size: larger;
+    width: 50px;
+    height:22px ;
+    background-color: lightsalmon;
+    top:317px;
+    left: 80px;
+    }
+    
+    
+    
+    label[for="lunch"]{
+    font-size: large;
+    /* background-color: cadetblue; */
+    position:absolute;
+    top: 320px;
+    left: 15px;
+    
+    
+    } 
+    #dinner{
+        position:absolute;
+        font-size: larger;
+        width: 50px;
+        height:22px ;
+        background-color: lightsalmon;
+        top:347px;
+        left: 80px;
+        }
+        
+        
+        
+        label[for="dinner"]{
+        font-size: large;
+        /* background-color: cadetblue; */
+        position:absolute;
+        top: 350px;
+        left: 15px;
+        
+        
+        } 
+
+
+
+
+
+
+
+
+main textarea {
+    background-color: rgb(141, 58, 58);
+    /* opacity: 0; */
+  
+
+} 
+main input{
+    background-color: mediumslateblue;
+}
+main label{
+    /* background-color: rgb(213, 216, 200); */
+}
+button {
+    position:absolute;
+    background-color: #1f2718; /* Green */
+    border: none;
+    color: white;
+    padding: 8px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    top:92%;
+    bottom: 2%;
+    border-radius: 12px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frank+Ruhl+Libre:wght@300&family=Indie+Flower&family=Vollkorn&display=swap');
+* {
+    box-sizing: border-box;
+}
+footer{
+    background-color:#c4b7a783;
+    height: 250px;
+    position: relative;
+   
+   }
+   .contacts{
+       bottom: 1.5%;
+       position: absolute;
+       right: 39.5%;
+   }
+   .img2 {
+       position:absolute;
+   /* height: 50px;
+   width: 50px; */
+   padding: 0px;
+   bottom: 25px;
+   left: 395px;
+   }
+   .img2  img {
+       width: 50px;
+       height: 50px;
+     /* position:absolute; */
+       padding: 3px;
+
+   }
+   .img2 a{
+       text-decoration: none;
+   }
+   /* main {
+       background-color:#c4b7a7;
+   } */
+   .copyRights{
+       font-size: larger;
+       font-family: 'Frank Ruhl Libre', serif;
+       position: absolute;
+       bottom: 0%;
+       right: 39.5%;
+   }
+   .brief{
+       width: 30%;
+       font-family: 'Frank Ruhl Libre', serif;
+       text-align: justify;
+       position: absolute;
+       right: 2.5%;
+       bottom: 2%;
+    }
+    .brief p {
+        padding-left: 10px;
+    }
+    .brief p a{
+    text-decoration: none;
+    color: black;
+    }
+    .brief p a:hover{
+        color: #7C747C;
+    }
+    .address{  
+        width: 30%;
+        font-family: 'Frank Ruhl Libre', serif;
+        text-align: justify;
+        position: absolute;
+        left: 5%;
+        bottom: 2%;
+    }
+    .address p {
+        padding-top: 7px;
+    }
+.img2:hover{
+    transform: scale(1.25);
+}
+.contacts a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
